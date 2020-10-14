@@ -1,8 +1,5 @@
 import java.util.Scanner;
 
-import org.graalvm.compiler.nodes.cfg.HIRLoop;
-
-import jdk.internal.vm.annotation.Hidden;
 
 public class TestPalindrome {
     public static void main(String[] args) {
