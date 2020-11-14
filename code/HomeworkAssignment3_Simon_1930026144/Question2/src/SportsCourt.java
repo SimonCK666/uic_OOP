@@ -13,6 +13,14 @@ public class SportsCourt {
     }
 
     public static void testSportsCourt() {
-        
+        HalfMarathon hm1 = new HalfMarathon();
+        SportsCourt sportsCourt = new SportsCourt(hm1);
+        Sport hm2 = sportsCourt.playSport();
+        // judge the equality
+        if (hm1 == hm2) {
+            System.out.println("hm1 and hm2 are the same half marathon");
+        } else {
+            System.out.println("hm1 and hm2 are not the same half marathon");
+        }
     }
 }

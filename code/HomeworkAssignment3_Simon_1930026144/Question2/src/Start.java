@@ -11,5 +11,7 @@ public class Start {
         Marathon.testMarathon();
         // test the HalfMarathon class
         HalfMarathon.testHalfMarathon();
+        // test the SportsCourts class
+        SportsCourt.testSportsCourt();
     }
 }
